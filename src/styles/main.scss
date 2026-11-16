@@ -1,0 +1,10 @@
+@use 'variables' as *;
+@use 'reset';
+
+body {
+  font-family: $font-main;
+  color: $color-text;
+  background: $color-bg;
+
+  scroll-behavior: smooth;
+}
